@@ -23,8 +23,8 @@ export default function Register() {
     confirmPassword: "",
   });
   const passwordregex =
-  /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,20}$/;
-const userNameregex = /^[0-9a-zA-Z]+$/;
+    /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[^a-zA-Z0-9])(?!.*\s).{8,20}$/;
+  const userNameregex = /^[0-9a-zA-Z]+$/;
 
   useEffect(() => {
     if (localStorage.getItem(process.env.REACT_APP_LOCALHOST_KEY)) {
@@ -89,7 +89,7 @@ const userNameregex = /^[0-9a-zA-Z]+$/;
         <form action="" onSubmit={(event) => handleSubmit(event)}>
           <div className="brand">
             <img src={Logo} alt="logo" />
-            <h1>snappy</h1>
+            <h1>Connect</h1>
           </div>
           <input
             type="text"

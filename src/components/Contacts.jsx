@@ -26,7 +26,7 @@ export default function Contacts({ contacts, changeChat }) {
         <Container>
           <div className="brand">
             <img src={Logo} alt="logo" />
-            <h3>snappy</h3>
+            <h3>Connect</h3>
           </div>
           <div className="contacts">
             {contacts.map((contact, index) => {
@@ -136,7 +136,7 @@ const Container = styled.div`
     align-items: center;
     gap: 0.5rem;
     .avatar {
-      margin-left:1rem;
+      margin-left: 1rem;
       img {
         height: 3rem;
         max-inline-size: 100%;
@@ -144,8 +144,8 @@ const Container = styled.div`
     }
     .username {
       h3 {
-        margin-top:1rem;
-        font-size:3rem;
+        margin-top: 1rem;
+        font-size: 3rem;
         color: white;
       }
     }
